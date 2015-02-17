@@ -15,7 +15,7 @@
 #ADD broker-list.sh /usr/bin/broker-list.sh
 #CMD start-kafka.sh
 
-FROM wurstmeister/kafka:0.8.1.1-1
+FROM wurstmeister/kafka:0.8.2.0
 MAINTAINER Kirill Pinchuk <k_pinchuk@wargaming.net>
 ADD start-kafka.sh /usr/bin/start-kafka.sh
 CMD start-kafka.sh
